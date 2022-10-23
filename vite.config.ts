@@ -32,7 +32,7 @@ function serverConfig() {
   let config = {}
 
   if (process.env.VSCODE_DEBUG) {
-    let URI = new URL('http://localhost:3000')
+    let URI = new URL(packageJSON.debug.env.VITE_DEV_SERVER_URL)
     Object.assign(config, { host: URI.host, port: +URI.port })
   }
 

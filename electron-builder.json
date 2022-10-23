@@ -1,14 +1,14 @@
 {
-    "appId": "app.electron.${name}",
+    "appId": "appID",
     "asar": true,
     "copyright": "Copyright © 2022 ${author}",
     "directories": {
         "output": "release/${version}"
     },
     "files": [
-        "main.js",
-        "preload.js",
-        "dist"
+        "build",
+        "dist",
+        "dist-electron"
     ],
     "mac": {
         "artifactName": "${productName}-${version}.${ext}",
@@ -25,7 +25,7 @@
                 ]
             }
         ],
-        "artifactName": "${productName}_${version}.${ext}"
+        "artifactName": "${productName}-${version}.${ext}"
     },
     "nsis": {
         "oneClick": false,

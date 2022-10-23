@@ -1,7 +1,7 @@
 {
   "name": "vue-electron-starter",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Vue + Electron app boilerplate",
   "keywords": [
     "electron",
@@ -18,9 +18,8 @@
   "main": "dist-electron/main/index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "electron:build": "yarn build && electron-builder --config electron-builder.json"
+    "build": "vue-tsc --noEmit && vite build && electron-builder --config electron-builder.json",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
