@@ -2106,10 +2106,10 @@ verror@^1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vite-electron-plugin@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/vite-electron-plugin/-/vite-electron-plugin-0.4.6.tgz#f408d523c573baf99140f84f8957f843f467f409"
-  integrity sha512-ctHow5YxXoAok816zSp5RazaRcVJ8sQSgTpNR4LhV5rR1LH/MdMagmSsyjtl2JC1BXLPmh62s/eMiwX4ov7j0A==
+vite-electron-plugin@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/vite-electron-plugin/-/vite-electron-plugin-0.5.2.tgz#037b8545f49da31dbf9d7accf01f2f177d173358"
+  integrity sha512-rY2qpY0grQS/4C/ERCv/ncgc3suj8F2fmsVlHhcPTEuNjAZifrWsuPHj34LPeP8dIeKglBF3fFHC4bWt8/Q78w==
   dependencies:
     chokidar "^3.5.3"
     fast-glob "^3.2.12"
