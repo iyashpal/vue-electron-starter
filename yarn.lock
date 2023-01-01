@@ -1666,6 +1666,14 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
   integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
+notbundle@~0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/notbundle/-/notbundle-0.3.3.tgz#15855700f410ecddf3e95844ea82285843187a38"
+  integrity sha512-5c7uzGXzWpRmGNwSCvCIdc7HAnP4XICNU0YFS3S4GiM41rMe0GaMhWdxn70jPx3QLwoJfN1BI50pnATB+IEKWA==
+  dependencies:
+    chokidar "^3.5.3"
+    fast-glob "^3.2.12"
+
 npm-conf@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/npm-conf/-/npm-conf-1.1.3.tgz#256cc47bd0e218c259c4e9550bf413bc2192aff9"
@@ -2106,18 +2114,24 @@ verror@^1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vite-electron-plugin@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/vite-electron-plugin/-/vite-electron-plugin-0.4.6.tgz#f408d523c573baf99140f84f8957f843f467f409"
-  integrity sha512-ctHow5YxXoAok816zSp5RazaRcVJ8sQSgTpNR4LhV5rR1LH/MdMagmSsyjtl2JC1BXLPmh62s/eMiwX4ov7j0A==
+vite-electron-plugin@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/vite-electron-plugin/-/vite-electron-plugin-0.7.2.tgz#708e50963f218b576a8e849df8310a72394cf88e"
+  integrity sha512-vcgRWXyfQvUO0WxJEze3Crkk5nK5UEW2ItDaZ6KRczKsnbMVb+Y9sYWgy8Vu+kL+X5e3OZAlFEcARIf7XXEl2A==
   dependencies:
-    chokidar "^3.5.3"
     fast-glob "^3.2.12"
+    notbundle "~0.3.3"
+    vite-plugin-utils "~0.3.6"
 
 vite-plugin-electron-renderer@^0.10.1:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/vite-plugin-electron-renderer/-/vite-plugin-electron-renderer-0.10.1.tgz#0a1db65b79396f7f008effc6ecf10901e8628b17"
   integrity sha512-N9QXl1QbwAwZesvxMbWpBvYK4BkL4Xt/812RKCAf1b0eOlwW8jEDXuREsax2GBDdAS5kfOjf8V3Trtu/nFvS0A==
+
+vite-plugin-utils@~0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/vite-plugin-utils/-/vite-plugin-utils-0.3.6.tgz#f28eea11e5286db1b29bad6e31910ffa71ab3fbf"
+  integrity sha512-+tZdnTxrDdjPzrlPUyvm52SvOVRibDEnA9NdzQt85UoqXwLGJp4RAkT9fK11KdLMTdJlb9DxCvHrDfsn/lSKug==
 
 vite@^3.1.0:
   version "3.1.8"
